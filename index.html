@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>it.renovation</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&family=Satisfy&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <h1 class="logo"><a href="index.html"><img src="img/logo01.png" alt="it.renovation"></a></h1>
+            <nav id="nav">
+                <ul class="nav-list">
+                    <li><a class="line-btn" href="index.html">HOME</a></li>
+                    <li><a class="line-btn" href="about.html">ABOUT</a></li>
+                    <li><a class="line-btn" href="gallery.html"><span>GALLERY</span></a></li>
+                    <li><a class="line-btn" href="service.html">SERVICE</a></li>
+                    <li><a class="line-btn" href="#flow">FLOW</a></li>
+                    <li><a class="line-btn" href="#column">COLUMN</a></li>
+                    <li><a class="line-btn" href="Q&A.html">Q&A</a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="img/instaglam.png" alt="instagram"></a></li>
+                </ul>
+            </nav>
+            <div class="toggle_btn">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-list">
+                <ul class="menu-list-inner">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="service.html">SERVICE</a></li>
+                    <li><a href="#flow">FLOW</a></li>
+                    <li><a href="#column">COLUMN</a></li>
+                    <li><a href="Q&A.html">Q&A</a></li>
+                </ul>
+                <div class="menu-list-bottom">
+                    <div class="menu-list-contact">
+                        <p>お気軽にお問合せください</p>
+                        <p class="menu-list-tel">000-0000-0000</p>
+                        <p>営業時間｜10:00～18:00</p>
+                        <a href="https://maps.app.goo.gl/vZkQt1kLE2LTwKaY6" target="_blank">Google map</a>
+                    </div>
+                    <ul class="contact-list">
+                        <li>
+                            <a href="contact.html" class="contact-list-btn svg-btn">
+                                <svg class="curve-svg" viewBox="0 0 200 200">
+                                    <defs>
+                                        <path id="circle1" d="M 100,100 m -70,0 a 70,70 0 1,1 140,0" />
+                                    </defs>
+                                    <text>
+                                        <textPath href="#circle1" startOffset="50%" text-anchor="middle">
+                                            無料相談はこちら
+                                        </textPath>
+                                    </text>
+                                    </svg>
+                                <img src="img/free-consul.png" alt="無料相談">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="contact-list-btn svg-btn">
+                                <svg class="curve-svg" viewBox="0 0 200 200">
+                                    <defs>
+                                        <path id="circle2" d="M 100,100 m -70,0 a 70,70 0 1,1 140,0" />
+                                    </defs>
+                                        <text>
+                                            <textPath href="#circle2" startOffset="50%" text-anchor="middle">
+                                                資料ダウンロード
+                                            </textPath>
+                                        </text>
+                                    </svg>
+                                <img src="img/material.png" alt="資料ダウンロード">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank" class="contact-list-btn svg-btn">
+                                <svg class="curve-svg" viewBox="0 0 200 200">
+                                    <defs>
+                                        <path id="circle3" d="M 100,100 m -70,0 a 70,70 0 1,1 140,0" />
+                                    </defs>
+                                    <text>
+                                        <textPath href="#circle3" startOffset="50%" text-anchor="middle">
+                                            イベント情報はこちら
+                                        </textPath>
+                                    </text>
+                                </svg>
+                                <img src="img/instaglam.png" alt="インスタグラム">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="mask"></div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="main-visual">
+            <div class="main-visual-inner">
+                <div class="main-text">
+                    <p>住みたい、が続く</p>
+                    <p>リノベーション</p>
+                </div>
+                <ul class="fade">
+                    <li class="fade-item">
+                        <img class="pc" src="img/main01.jpg" alt="メインビジュアル">
+                        <img class="sp" src="img/main_sp01.jpg" alt="メインビジュアル">
+                    </li>
+                    <li class="fade-item">
+                        <img class="pc" src="img/main_visual02.jpg" alt="メインビジュアル">
+                        <img class="sp" src="img/main_sp02.jpg" alt="メインビジュアル">
+                    </li>
+                    <li class="fade-item">
+                        <img class="pc" src="img/main_visual03.jpg" alt="メインビジュアル">
+                        <img class="sp" src="img/main_sp03.jpg" alt="メインビジュアル">
+                    </li>
+                    <li class="fade-item">
+                        <img class="pc" src="img/main_visual04.jpg" alt="メインビジュアル">
+                        <img class="sp" src="img/main_sp04.png" alt="メインビジュアル">
+                    </li>
+                </ul>
+                <div class="floating-buttons">
+                    <a href="contact.html" class="circle-btn free-consul">
+                        <img src="img/free-consul.png" alt="無料相談">
+                        <p>無料相談</p>
+                    </a>
+                    <a href="#" class="circle-btn material">
+                        <img src="img/material.png" alt="資料ダウンロード">
+                        <p>資料<br>ダウンロード</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <section id="about" class="wrapper">
+            <div class="about-text">
+                <div class="about-top-text fadeUpTrigger">
+                    <p>家づくりが、もっと<br>
+                    "わくわく"<br>
+                    するものであってほしい</p>
+                </div>
+                <div class="about-sub-text fadeUpTrigger">
+                <p>「あんなキッチンがあったらいいな」<br>
+                「ランドリールームがあったら暮らしやすそう」
+                </p>
+                <p>想像しているときは楽しいのに、<br>
+                    いざ家づくりが始まると<br>
+                    予算や素材、動線、家族の意見…。
+                </p>
+                <p>考えることが多くて大変。</p>
+                <p>だからまず、<br>あなたとご家族の「理想の暮らし」を聞かせてください。</p>
+                <p>限られた条件の中で、<br>最大限その想いを叶える提案をしたい。</p>
+                <p>それが私たちの考えるリノベーションです。</p>
+                </div>
+            </div>
+            <div class="about-photo fadeUpTrigger">
+                <img src="img/about.jpg" alt="">
+            </div>
+    </section>
+
+
+    <section id="gallery" class="wrapper">
+        <h2 class="section-title">
+            <span class="en">GALLERY</span>
+            <span class="ja">施工事例</span>
+        </h2>
+
+        <div class="grid-gallery">
+            <div class="gallery-item fadeUpTrigger">
+                <a href="gallery.html">
+                    <p class="case">case01</p>
+                    <h3 class="gallery-title">回遊キッチンで、家事が整う家</h3>
+                    <div class="gallery-img">
+                        <img src="img/gallery01.jpg" alt="施工事例01">
+                    </div>
+                    <dl class="gallery-info">
+                        <dt><span></span>面積</dt>
+                        <dd>68㎡</dd>
+                        <dt><span></span>費用</dt>
+                        <dd>約1,250万円</dd>
+                        <dt><span></span>間取り</dt>
+                        <dd>2LDK＋WIC＋パントリー</dd>
+                    </dl>
+                </a>
+            </div>
+            <div class="gallery-item fadeUpTrigger">
+                <a href="gallery.html">
+                    <p class="case">case02</p>
+                    <h3 class="gallery-title">家族の声が聞こえる家</h3>
+                    <div class="gallery-img">
+                        <img src="img/gallery02.jpg" alt="施工事例02">
+                    </div>
+                    <dl class="gallery-info">
+                        <dt><span></span>面積</dt>
+                        <dd>72㎡</dd>
+                        <dt><span></span>費用</dt>
+                        <dd>約1,320万円</dd>
+                        <dt><span></span>間取り</dt>
+                        <dd>2LDK</dd>
+                    </dl>
+                </a>
+            </div>
+            <div class="gallery-item fadeUpTrigger">
+                <a href="gallery.html">
+                    <p class="case">case03</p>
+                    <h3 class="gallery-title">ホテルライクなモダンな家</h3>
+                    <div class="gallery-img">
+                        <img src="img/gallery03.jpg" alt="施工事例03">
+                    </div>
+                    <dl class="gallery-info">
+                        <dt><span></span>面積</dt>
+                        <dd>75㎡</dd>
+                        <dt><span></span>費用</dt>
+                        <dd>約1,400万円</dd>
+                        <dt><span></span>間取り</dt>
+                        <dd>1LDK + WIC</dd>
+                    </dl>
+                </a>
+            </div>
+            <div class="gallery-item fadeUpTrigger">
+                <a href="gallery.html">
+                    <p class="case">case04</p>
+                    <h3 class="gallery-title">素材を楽しむシンプルな暮らし</h3>
+                    <div class="gallery-img">
+                        <img src="img/gallery04.jpg" alt="施工事例04">
+                    </div>
+                    <dl class="gallery-info">
+                        <dt><span></span>面積</dt>
+                        <dd>65㎡</dd>
+                        <dt><span></span>費用</dt>
+                        <dd>約1,180万円</dd>
+                        <dt><span></span>間取り</dt>
+                        <dd>2LDK+ワークスペース</dd>
+                    </dl>
+                </a>
+            </div>
+            <div class="gallery-item fadeUpTrigger">
+                <a href="gallery.html">
+                    <p class="case">case05</p>
+                    <h3 class="gallery-title">キッチンが主役の部分リノベ</h3>
+                    <div class="gallery-img">
+                        <img src="img/gallery05.jpg" alt="施工事例05">
+                    </div>
+                    <dl class="gallery-info">
+                        <dt><span></span>面積</dt>
+                        <dd>60㎡</dd>
+                        <dt><span></span>費用</dt>
+                        <dd>約320万円</dd>
+                        <dt><span></span>間取り</dt>
+                        <dd>2LDK（変更なし）</dd>
+                    </dl>
+                </a>
+            </div>
+            <div class="gallery-item fadeUpTrigger">
+                <a href="gallery.html">
+                    <p class="case">case06</p>
+                    <h3 class="gallery-title">ゆったり使える洗面リノベ</h3>
+                    <div class="gallery-img">
+                        <img src="img/gallery06.jpg" alt="施工事例06">
+                    </div>
+                    <dl class="gallery-info">
+                        <dt><span></span>面積</dt>
+                        <dd>68㎡</dd>
+                        <dt><span></span>費用</dt>
+                        <dd>約85万円</dd>
+                        <dt><span></span>間取り</dt>
+                        <dd>3LDK（変更なし）</dd>
+                    </dl>
+                </a>
+            </div>
+        </div>
+        <div class="view-more">
+            <a href="gallery.html">view more
+                <span class="arrow">
+                    <svg width="40" height="12" viewBox="0 0 40 12" fill="none">
+                        <path d="M0 6 H36" stroke="#333" stroke-width="1"/>
+                        <path d="M30 1 L38 6 L30 11" stroke="#333" stroke-width="1" fill="none"/>
+                    </svg>
+                </span>
+            </a>
+        </div>
+    </section>
+
+
+    <section id="home-service" class="wrapper">
+        <h2 class="section-title">
+            <span class="en">SERVICE</span>
+            <span class="ja">できること</span>
+        </h2>
+        <div class="home-service-list">
+            <a href="service.html" class="home-service-card">
+                <div class="home-service-icons">
+                    <img src="img/service01.png" alt="物件購入">＋
+                    <img src="img/service02.png" alt="リノベーション">
+                </div>
+                <span>物件購入＋リノベ</span>
+            </a>
+            <a href="service.html" class="home-service-card">
+                <img src="img/service01.png" alt="リノベーション">
+                <br><span>フルリノベーション</span>
+            </a>
+            <a href="service.html" class="home-service-card">
+                <img src="img/service03.png" alt="部分リノベーション">
+                <br><span>部分リノベーション</span>
+            </a>
+        </div>
+    </section>
+
+
+    <section id="flow">
+        <div class="flow-inner">
+        <h2 class="section-title wrapper">
+            <span class="en">FLOW</span>
+            <span class="ja">ながれ</span>
+        </h2>
+
+        <div class="flow-box">
+        <!-- PC用の期間ライン -->
+            <div class="flow-time pc-time">
+                <div class="time-group time-left">
+                    <span class="dot start"></span>
+                    <span class="label">1〜1.5ヶ月</span>
+                </div>
+                <div class="time-group time-center">
+                    <span class="dot start"></span>
+                    <span class="label">1〜2ヶ月</span>
+                </div>
+                <div class="time-group time-right">
+                    <span class="dot start"></span>
+                    <span class="label">2〜3ヶ月</span>
+                    <span class="dot end"></span>
+                </div>
+            </div>
+
+            <div class="flow-bar"></div>
+
+            <!-- SP / タブレット用 -->
+            <div class="flow-sp-line">
+                <span class="dot dot-st"></span>
+                <span class="dot dot-second"></span>
+                <span class="dot dot-third"></span>
+                <span class="dot dot-end"></span>
+            </div>
+
+            <ol class="flow-steps">
+                <li class="step">
+                    <span class="flow-num">1</span>
+                    <p>無料相談</p>
+                    <div class="term">1〜1.5ヶ月</div>
+                </li>
+                <li class="step">
+                    <span class="flow-num">2</span>
+                    <p>初回打合せ</p>
+                </li>
+                <li class="step step-has-term">
+                    <span class="flow-num">3</span>
+                    <p>プラン提案・見積り</p>
+                </li>
+                <li class="step">
+                    <span class="flow-num">4</span>
+                    <p>お申込み</p>
+                    <div class="term">1〜2ヶ月</div>
+                </li>
+                <li class="step step-has-term">
+                    <span class="flow-num">5</span>
+                    <p>リノベーション設計</p>
+                </li>
+                <li class="step">
+                    <span class="flow-num">6</span>
+                    <p>リノベーション工事</p>
+                    <div class="term">2〜3ヶ月</div>
+                </li>
+                <li class="step step-has-term">
+                    <span class="flow-num">7</span>
+                    <p>検査・お引渡し</p>
+                </li>
+                <li class="step">
+                    <span class="flow-num">8</span>
+                    <p>アフターサポート</p>
+                </li>
+            </ol>
+        </div>
+        </div>
+    </section>
+
+
+    <section id="column" class="wrapper">
+        <h2 class="section-title">
+            <span class="en">COLUMN</span>
+            <span class="ja">よみもの</span>
+        </h2>
+
+        <ul class="column-list">
+            <li class="column-item">
+                <a href="#">
+                    <img src="img/column01.jpg" alt="白い壁の広いリビングにダイニングテーブルと椅子とキッチン">
+                    <p>中古マンションリノベーションの注意点総まとめ！一級建築士が教える気を付けるポイント</p>
+                </a>
+            </li>
+            <li class="column-item">
+                <a href="#">
+                    <img src="img/column02.jpg" alt="テーブルの上に紫のチューリップと水差し">
+                    <p>【中古リノベ vs 新築購入】<br>10年後も後悔しない家えらび。あなたのライフスタイルに合うのはどっち？</p>
+                </a>
+            </li>
+            <li class="column-item">
+                <a href="#">
+                    <img src="img/column03.jpg" alt="白い壁のモダンな玄関に黒い扉">
+                    <p>やってよかった！もっとこうすればよかった。住んでみてわかったリノべの成功点と改善点</p>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+
+    <div class="slider-content">
+        <ul class="slider">
+            <li class="slide"><img src="img/slide01.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide02.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide03.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide04.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide05.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide06.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide07.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide08.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide09.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide10.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide01.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide02.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide03.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide04.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide05.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide06.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide07.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide08.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide09.jpg" alt=""></li>
+            <li class="slide"><img src="img/slide10.jpg" alt=""></li>
+        </ul>
+    </div>
+
+
+    <div class="consultation-btn">
+        <a href="contact.html"><span>無料相談してみる</span></a>
+    </div>
+
+</main>
+
+    <footer>
+        <div class="footer-inner">
+            <a href="#" class="page-top">
+                <span>Page Top</span>
+            </a>
+            <ul class="footer-left">
+                <li><img class="logo" src="img/logo01.png" alt="it.renovation"></li>
+                <li  class="shop-info">
+                    <p>
+                        〒812-0011<br>
+                        福岡県福岡市博多区博多駅中央街1-1<br>
+                        定休日：月・祝日<br>
+                        TEL：000 - 0000 - 0000
+                    </p>
+                    <a class="map" href="https://maps.app.goo.gl/vZkQt1kLE2LTwKaY6" target="_blank">Google map</a>
+                </li>
+            </ul>
+            <ul class="footer-right">
+                <li>
+                    <ul class="footer-menu">
+                        <li><a class="line-btn" href="index.html">HOME</a></li>
+                        <li><a class="line-btn" href="about.html">ABOUT</a></li>
+                        <li><a class="line-btn" href="gallery.html">GALLERY</a></li>
+                        <li><a class="line-btn" href="service.html">SERVICE</a></li>
+                        <li><a class="line-btn" href="#flow">FLOW</a></li>
+                        <li><a class="line-btn" href="#column">COLUMN</a></li>
+                        <li><a class="line-btn" href="Q&A.html">Q&A</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="footer-contact-list">
+                        <li><a href="https://www.instagram.com/" target="_blank"><img src="img/instaglam.png" alt="instagram"></a></li>
+                        <li><a href="#"><img src="img/material.png" alt="資料ダウンロード"></a></li>
+                        <li><a href="contact.html"><img src="img/free-consul.png" alt="無料相談"></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
